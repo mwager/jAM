@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/429/trunk/src/scanner
+END
+NoTransitionFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/413/trunk/src/scanner/NoTransitionFoundException.java
+END
+InvalidCharacterEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/413/trunk/src/scanner/InvalidCharacterEvent.java
+END
+IsDigitTransition.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/324/trunk/src/scanner/IsDigitTransition.java
+END
+Scanner2.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/324/trunk/src/scanner/Scanner2.java
+END
+CharStreamPosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/429/trunk/src/scanner/CharStreamPosition.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/101/trunk/src/scanner/package.html
+END
+NoSuchTokenException.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/413/trunk/src/scanner/NoSuchTokenException.java
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/324/trunk/src/scanner/Token.java
+END
+State.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/419/trunk/src/scanner/State.java
+END
+ScannerListenerInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/324/trunk/src/scanner/ScannerListenerInterface.java
+END
+TokenType.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/324/trunk/src/scanner/TokenType.java
+END
+TokenEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/413/trunk/src/scanner/TokenEvent.java
+END
+AutomataDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/324/trunk/src/scanner/AutomataDefinition.java
+END
+PositionableInCharStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/324/trunk/src/scanner/PositionableInCharStream.java
+END
+Scanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/324/trunk/src/scanner/Scanner.java
+END
+Transition.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/324/trunk/src/scanner/Transition.java
+END
+ScannerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/324/trunk/src/scanner/ScannerAdapter.java
+END
+FinaleStateAutomata.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/324/trunk/src/scanner/FinaleStateAutomata.java
+END
+Set.java
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/324/trunk/src/scanner/Set.java
+END
+IsAlphaTransition.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/324/trunk/src/scanner/IsAlphaTransition.java
+END

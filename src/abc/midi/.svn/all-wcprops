@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/460/trunk/src/abc/midi
+END
+NoteIndexMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/324/trunk/src/abc/midi/NoteIndexMessage.java
+END
+NotationMarkerMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/324/trunk/src/abc/midi/NotationMarkerMessage.java
+END
+PlayerStateChangeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/413/trunk/src/abc/midi/PlayerStateChangeEvent.java
+END
+OldBasicMidiConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/324/trunk/src/abc/midi/OldBasicMidiConverter.java
+END
+BasicMidiConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/324/trunk/src/abc/midi/BasicMidiConverter.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/26/trunk/src/abc/midi/package.html
+END
+TunePlayerListenerInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/324/trunk/src/abc/midi/TunePlayerListenerInterface.java
+END
+KeySignatureMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/324/trunk/src/abc/midi/KeySignatureMessage.java
+END
+MetaMessageWA.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/324/trunk/src/abc/midi/MetaMessageWA.java
+END
+TimeSignatureMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/324/trunk/src/abc/midi/TimeSignatureMessage.java
+END
+BasicPositionableMidiConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/460/trunk/src/abc/midi/BasicPositionableMidiConverter.java
+END
+TunePlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/460/trunk/src/abc/midi/TunePlayer.java
+END
+MidiMessageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/324/trunk/src/abc/midi/MidiMessageType.java
+END
+TempoMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/439/trunk/src/abc/midi/TempoMessage.java
+END
+TunePlayerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/324/trunk/src/abc/midi/TunePlayerAdapter.java
+END
+MidiConverterInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/324/trunk/src/abc/midi/MidiConverterInterface.java
+END
+TempoChangeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/413/trunk/src/abc/midi/TempoChangeEvent.java
+END
+OldMidiConverterAbstract.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/460/trunk/src/abc/midi/OldMidiConverterAbstract.java
+END
+MidiConverterAbstract.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/460/trunk/src/abc/midi/MidiConverterAbstract.java
+END

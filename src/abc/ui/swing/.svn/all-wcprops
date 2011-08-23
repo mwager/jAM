@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/460/trunk/src/abc/ui/swing
+END
+JScoreElementAsbtract.java.old
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/278/trunk/src/abc/ui/swing/JScoreElementAsbtract.java.old
+END
+JChordPartOfGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/425/trunk/src/abc/ui/swing/JChordPartOfGroup.java
+END
+JGroupOfNotes.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/454/trunk/src/abc/ui/swing/JGroupOfNotes.java
+END
+JGroupOfGraceNotes.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/426/trunk/src/abc/ui/swing/JGroupOfGraceNotes.java
+END
+ScoreTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/455/trunk/src/abc/ui/swing/ScoreTemplate.java
+END
+Engraver.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/460/trunk/src/abc/ui/swing/Engraver.java
+END
+JChord.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/445/trunk/src/abc/ui/swing/JChord.java
+END
+JChordName.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/450/trunk/src/abc/ui/swing/JChordName.java
+END
+JPartLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/457/trunk/src/abc/ui/swing/JPartLabel.java
+END
+JClef.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/448/trunk/src/abc/ui/swing/JClef.java
+END
+ScoreTemplateChangeListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/413/trunk/src/abc/ui/swing/ScoreTemplateChangeListener.java
+END
+JAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/450/trunk/src/abc/ui/swing/JAnnotation.java
+END
+JStaffLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/457/trunk/src/abc/ui/swing/JStaffLine.java
+END
+TuneEditorPane.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/419/trunk/src/abc/ui/swing/TuneEditorPane.java
+END
+JSpacer.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/445/trunk/src/abc/ui/swing/JSpacer.java
+END
+JTimeSignature.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/443/trunk/src/abc/ui/swing/JTimeSignature.java
+END
+JDynamic.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/438/trunk/src/abc/ui/swing/JDynamic.java
+END
+JText.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/457/trunk/src/abc/ui/swing/JText.java
+END
+JTempo.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/441/trunk/src/abc/ui/swing/JTempo.java
+END
+JScoreElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/430/trunk/src/abc/ui/swing/JScoreElement.java
+END
+JChordNote.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/425/trunk/src/abc/ui/swing/JChordNote.java
+END
+JDecoration.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/445/trunk/src/abc/ui/swing/JDecoration.java
+END
+JSlurOrTie.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/413/trunk/src/abc/ui/swing/JSlurOrTie.java
+END
+ScoreMetrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/454/trunk/src/abc/ui/swing/ScoreMetrics.java
+END
+JSubtitle.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/426/trunk/src/abc/ui/swing/JSubtitle.java
+END
+JWords.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/426/trunk/src/abc/ui/swing/JWords.java
+END
+JNotePartOfGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/458/trunk/src/abc/ui/swing/JNotePartOfGroup.java
+END
+JScoreComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/460/trunk/src/abc/ui/swing/JScoreComponent.java
+END
+JGraceNotePartOfGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/426/trunk/src/abc/ui/swing/JGraceNotePartOfGroup.java
+END
+JNoteElementAbstract.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/445/trunk/src/abc/ui/swing/JNoteElementAbstract.java
+END
+JBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/445/trunk/src/abc/ui/swing/JBar.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/280/trunk/src/abc/ui/swing/package.html
+END
+JRepeatBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/451/trunk/src/abc/ui/swing/JRepeatBar.java
+END
+JNote.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/445/trunk/src/abc/ui/swing/JNote.java
+END
+JGroupableNote.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/413/trunk/src/abc/ui/swing/JGroupableNote.java
+END
+JGraceNote.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/426/trunk/src/abc/ui/swing/JGraceNote.java
+END
+JScoreElementAbstract.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/450/trunk/src/abc/ui/swing/JScoreElementAbstract.java
+END
+JKeySignature.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/440/trunk/src/abc/ui/swing/JKeySignature.java
+END
+JTune.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/460/trunk/src/abc/ui/swing/JTune.java
+END
+JTitle.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/426/trunk/src/abc/ui/swing/JTitle.java
+END

@@ -1,0 +1,73 @@
+<HTML>
+<BODY>
+This package contains classes for parsing tunes in abc notation. It needs both <TT>scanner</TT> and 
+<TT>abc.notation</TT> packages to work.
+The purpose of classes from this package is to extract from the abc notation all the necessary information needed 
+to represent the music with objects belonging to the <TT>abc.notation</TT>.<BR/>
+<BR/>
+abc4j propose several classes to instantiate abc parsers :
+<UL>
+	<LI>{@link  abc.parser.AbcFileParser AbcFileParser} :  This class parses the abc stream and 
+		provides you {@link  abc.notation.Tune Tune} instances with header information 
+		(such as title, key etc...) and music part. 
+	</LI>
+	<LI>{@link  abc.parser.AbcHeadersParser AbcHeadersParser} : This class restricts the 
+		parsing to abc headers. This enables a faster parsing compared to the one 
+		done using <TT>AbcFileParser</TT>.
+	</LI>
+	<LI>{@link  abc.parser.TuneParser TuneParser} : This class is usefull when you 
+		want to parse only one tune : you get the {@link  abc.notation.Tune Tune} result in a 
+		synchronous manner without any listener mechanism. Quite convenient in some cases...
+	</LI>
+</UL>
+Beside those standard ways to use parser, another class provides a more high level abstraction :
+<UL>
+	<LI>{@link  abc.parser.TuneBook TuneBook} :  This class abstract an abc file as an 
+		object and encpasulates the parsing phasis in its implementation (hidden
+		from client perspective). <U>For a first use of the abc4j library, this 
+		class is the best starting point.</U>
+	</LI>
+</UL>	 
+<HR/>
+Some specific points should be pointed out during the translation from abc music notation to "standard"
+music notation :
+<OL>
+<LI><B>Several different ways to express music using abc can lead to the same music.</B><BR/>
+For instance, the two following tunes :
+<PRE>
+X:1
+T:dots example
+L:1/8
+K:D
+d3d
+
+X:2
+T:dots example
+L:1/4
+K:D
+d&gt;d
+</PRE>
+describe the same melody : a dotted quarter note followed by eighth note. The consequence of this is that their 
+representation in <TT>Note</TT> objects will be the same : the first note is a <TT>Note</TT> instance 
+whose strict duration is <TT>Note.QUARTER</TT> and its <TT>countDots()</TT> will return 1.<BR/>
+The second note is a <TT>Note.EIGHTH</TT> without any dot.<BR/><BR/>
+</LI>
+<LI><B>Some abc note lengths may be impossible to translate into standard music notation.</B><BR/>
+For instance, let's consider the following tune :
+<PRE>
+X:1
+T:impossible duration
+L:1/8
+K:D
+d5
+</PRE>
+In such tune, the first note has a duration equals to 5 x eighth note. Such duration cannot be expressed
+in standard music notation with one single note : a quarter note is 4 times a eighth note, and a dotted
+quarter is 6 times a eighth note.<BR/>
+For now, the resulting note will be an instance of the <TT>Note</TT> class but with an "exotic" duration.
+One possible alternative would be to decompose this duration into several notes, but for now, the 
+translation sticks to the approach "one abc note -&gt; one <TT>Note</TT> instance".
+</LI>
+</OL>
+</BODY>
+</HTML>

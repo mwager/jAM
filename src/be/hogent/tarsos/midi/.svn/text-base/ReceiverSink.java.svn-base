@@ -1,0 +1,44 @@
+package be.hogent.tarsos.midi;
+
+import javax.sound.midi.MidiMessage;
+import javax.sound.midi.Receiver;
+
+/**
+ * ReceiverSink acts as a sink for MIDI messages. It is a Receiver and sends
+ * messages to each registered <code>Receiver</code>. It can be used to send
+ * messages to a synthesizer while monitoring the events by writing them to the
+ * command line, a LOG file,... or to build a MIDI file from any input
+ * 
+ * @author Joren Six
+ */
+public final class ReceiverSink implements Receiver {
+
+	private final Receiver[] receivers;
+	private final boolean ignoreTiming;
+
+	/**
+	 * @param receiverList
+	 *            The list of <code>Receiver</code>s to send messages to
+	 */
+	public ReceiverSink(final boolean ignoreTimingData,
+			final Receiver... receiverList) {
+		this.receivers = receiverList;
+		this.ignoreTiming = ignoreTimingData;
+	}
+
+	public void close() {
+		for (final Receiver receiver : receivers) {
+			receiver.close();
+		}
+	}
+
+	public void send(final MidiMessage message, final long timeStamp) {
+		long actualTimeStamp = timeStamp;
+		if (ignoreTiming) {
+			actualTimeStamp = -1;
+		}
+		for (final Receiver receiver : receivers) {
+			receiver.send(message, actualTimeStamp);
+		}
+	}
+}

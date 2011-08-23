@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/460/trunk/src/abc/parser
+END
+AbcFileParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/417/trunk/src/abc/parser/AbcFileParser.java
+END
+AbcFileParserAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/324/trunk/src/abc/parser/AbcFileParserAdapter.java
+END
+AutomataFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/417/trunk/src/abc/parser/AutomataFactory.java
+END
+AsynchronousTuneParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/417/trunk/src/abc/parser/AsynchronousTuneParser.java
+END
+TuneBookListenerInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/324/trunk/src/abc/parser/TuneBookListenerInterface.java
+END
+PositionableNote.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/439/trunk/src/abc/parser/PositionableNote.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/269/trunk/src/abc/parser/package.html
+END
+TuneParserListenerInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/324/trunk/src/abc/parser/TuneParserListenerInterface.java
+END
+TuneChangeEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/413/trunk/src/abc/parser/TuneChangeEvent.java
+END
+AbcParserAbstract.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/460/trunk/src/abc/parser/AbcParserAbstract.java
+END
+TuneBook.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/417/trunk/src/abc/parser/TuneBook.java
+END
+AbcTokenType.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/448/trunk/src/abc/parser/AbcTokenType.java
+END
+TuneParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/417/trunk/src/abc/parser/TuneParser.java
+END
+AbcFileParserListenerInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/324/trunk/src/abc/parser/AbcFileParserListenerInterface.java
+END
+PositionableMultiNote.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/430/trunk/src/abc/parser/PositionableMultiNote.java
+END
+InvalidTokenEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/413/trunk/src/abc/parser/InvalidTokenEvent.java
+END
+TuneParserAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/324/trunk/src/abc/parser/TuneParserAdapter.java
+END
+AbcToolkit.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/428/trunk/src/abc/parser/AbcToolkit.java
+END
+AbcVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/419/trunk/src/abc/parser/AbcVersion.java
+END
+AbcTextReplacements.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/413/trunk/src/abc/parser/AbcTextReplacements.java
+END
+AbcTextField.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/413/trunk/src/abc/parser/AbcTextField.java
+END
+AbcHeadersParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/417/trunk/src/abc/parser/AbcHeadersParser.java
+END

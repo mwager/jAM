@@ -1,0 +1,143 @@
+package be.hogent.tarsos.sampled.pitch;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import be.hogent.tarsos.util.AudioFile;
+import be.hogent.tarsos.util.ConfKey;
+import be.hogent.tarsos.util.Configuration;
+
+/**
+ * The pitch detection mode defines which algorithm is used to detect pitch.
+ * 
+ * @author Joren Six
+ */
+public enum PitchDetectionMode {
+	/**
+	 * The AUBIO_YIN algorithm.
+	 */
+	VAMP_YIN("yin"),
+	/**
+	 * A faster version of AUBIO_YIN: spectral AUBIO_YIN. It should yield very
+	 * similar results as AUBIO_YIN, only faster.
+	 */
+	VAMP_YIN_FFT("yin_fft"),
+	/**
+	 * Fast harmonic comb.
+	 */
+	VAMP_FAST_HARMONIC_COMB("fast_harmonic_comb"),
+
+	/**
+	 * Uses a basic estimate of the pitch extracted from the spectrum. The pitch
+	 * estimate needs elaboration, just finding the max at the moment but need
+	 * to correct for sub-harmonics which are really the fundamental. See
+	 * http://www.mazurka.org.uk/software/sv/plugin/MzHarmonicSpectrum/
+	 */
+	VAMP_MAZURKA_PITCH("mazurka_pitch"),
+
+	/**
+	 * Schmitt trigger.
+	 */
+	VAMP_SCHMITT("schmitt"),
+	/**
+	 * Spectral comb.
+	 */
+	VAMP_SPECTRAL_COMB("spectral_comb"),
+
+	/**
+	 * The IPEM pitch tracker outputs six weighted pitch candidates.
+	 */
+	IPEM_SIX("ipem_six"),
+
+	/**
+	 * The IPEM pitch tracker outputs only one pitch candidates.
+	 */
+	IPEM_ONE("ipem_one"),
+
+	/**
+	 * The pure java YIN implementation of Tarsos.
+	 */
+	TARSOS_YIN("tarsos_yin"),
+
+	/**
+	 * The pure java MPM (Tartini pitch tracker) implementation of Tarsos.
+	 */
+	TARSOS_MPM("tarsos_mpm");
+
+	/**
+	 * The name of the parameter.
+	 */
+	private final String detectionModeName;
+
+	/**
+	 * Initialize a pitch detection mode with a name.
+	 * 
+	 * @param name
+	 *            The name (e.g. command line parameter) for the mode.
+	 */
+	private PitchDetectionMode(final String name) {
+		this.detectionModeName = name;
+	}
+
+	/**
+	 * @return The name used in the (aubio) command to execute the pitch
+	 *         detector.
+	 */
+	public String getParametername() {
+		return this.getDetectionModeName();
+	}
+
+	/**
+	 * Returns a pitch detector for an audio file.
+	 * 
+	 * @param audioFile
+	 *            the audioFile to detect pitch for.
+	 * @return A pitch detector for the audio file.
+	 */
+	public PitchDetector getPitchDetector(final AudioFile audioFile) {
+		PitchDetector detector;
+		switch (this) {
+		case IPEM_SIX:
+			detector = new IPEMPitchDetection(audioFile, this);
+			break;
+		case IPEM_ONE:
+			detector = new IPEMPitchDetection(audioFile, this);
+			break;
+		case TARSOS_YIN:
+			detector = new TarsosPitchDetection(audioFile, this);
+			break;
+		case TARSOS_MPM:
+			detector = new TarsosPitchDetection(audioFile, this);
+			break;
+		default:
+			detector = new VampPitchDetection(audioFile, this);
+			break;
+		}
+		return new CachingDetector(audioFile, detector);
+	}
+
+	public String getDetectionModeName() {
+		return detectionModeName;
+	}
+
+	/**
+	 * @return An array of pitch detection modes which are configured to be
+	 *         used.
+	 */
+	public static List<PitchDetectionMode> selected() {
+		List<String> trackers = Configuration
+				.getList(ConfKey.pitch_tracker_list);
+		List<PitchDetectionMode> modes = new ArrayList<PitchDetectionMode>();
+		try {
+
+			for (String tracker : trackers) {
+				modes.add(PitchDetectionMode.valueOf(tracker));
+			}
+		} catch (IllegalArgumentException ex) {
+			// fallback on default
+			Configuration.set(ConfKey.pitch_tracker_list, "TARSOS_YIN");
+			modes.add(TARSOS_YIN);
+		}
+		return modes;
+	}
+}

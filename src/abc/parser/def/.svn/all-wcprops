@@ -1,0 +1,455 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/451/trunk/src/abc/parser/def
+END
+NoLineBreakDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/324/trunk/src/abc/parser/def/NoLineBreakDefinition.java
+END
+SlurBeginDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/324/trunk/src/abc/parser/def/SlurBeginDefinition.java
+END
+FieldKeyDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldKeyDefinition.java
+END
+LineBreakDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/324/trunk/src/abc/parser/def/LineBreakDefinition.java
+END
+TexCommandDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/324/trunk/src/abc/parser/def/TexCommandDefinition.java
+END
+KeyAccidentalDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/324/trunk/src/abc/parser/def/KeyAccidentalDefinition.java
+END
+ChordNameDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/324/trunk/src/abc/parser/def/ChordNameDefinition.java
+END
+CommentDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/441/trunk/src/abc/parser/def/CommentDefinition.java
+END
+FieldSourceDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldSourceDefinition.java
+END
+FractionDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FractionDefinition.java
+END
+MultiNoteEndDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/324/trunk/src/abc/parser/def/MultiNoteEndDefinition.java
+END
+GracingDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/417/trunk/src/abc/parser/def/GracingDefinition.java
+END
+AnnotationDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/439/trunk/src/abc/parser/def/AnnotationDefinition.java
+END
+FieldElemskipDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/413/trunk/src/abc/parser/def/FieldElemskipDefinition.java
+END
+ComaDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/324/trunk/src/abc/parser/def/ComaDefinition.java
+END
+IsTextCharTransition.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/448/trunk/src/abc/parser/def/IsTextCharTransition.java
+END
+OctaveDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/324/trunk/src/abc/parser/def/OctaveDefinition.java
+END
+TieDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/324/trunk/src/abc/parser/def/TieDefinition.java
+END
+FieldFileDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/413/trunk/src/abc/parser/def/FieldFileDefinition.java
+END
+ModeDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/425/trunk/src/abc/parser/def/ModeDefinition.java
+END
+MultiNoteBeginDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/324/trunk/src/abc/parser/def/MultiNoteBeginDefinition.java
+END
+TempoCDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/324/trunk/src/abc/parser/def/TempoCDefinition.java
+END
+NumberDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/324/trunk/src/abc/parser/def/NumberDefinition.java
+END
+FieldTempoDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldTempoDefinition.java
+END
+ExtraTextDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/324/trunk/src/abc/parser/def/ExtraTextDefinition.java
+END
+SpaceDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/324/trunk/src/abc/parser/def/SpaceDefinition.java
+END
+FieldOriginDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldOriginDefinition.java
+END
+FieldNumberDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldNumberDefinition.java
+END
+UserDefinedDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/324/trunk/src/abc/parser/def/UserDefinedDefinition.java
+END
+FieldBookDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldBookDefinition.java
+END
+FieldGroupDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldGroupDefinition.java
+END
+DigitDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/324/trunk/src/abc/parser/def/DigitDefinition.java
+END
+ParenthesisOpenDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/324/trunk/src/abc/parser/def/ParenthesisOpenDefinition.java
+END
+SymbolBeginDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/445/trunk/src/abc/parser/def/SymbolBeginDefinition.java
+END
+LineFeedDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/324/trunk/src/abc/parser/def/LineFeedDefinition.java
+END
+ParenthesisCloseDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/324/trunk/src/abc/parser/def/ParenthesisCloseDefinition.java
+END
+SlurEndDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/324/trunk/src/abc/parser/def/SlurEndDefinition.java
+END
+FieldRhythmDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldRhythmDefinition.java
+END
+FieldDiscographyDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldDiscographyDefinition.java
+END
+FieldTitleDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldTitleDefinition.java
+END
+FieldInformationDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldInformationDefinition.java
+END
+FieldNotesDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldNotesDefinition.java
+END
+FieldPartsDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldPartsDefinition.java
+END
+AcciaccaturaDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/419/trunk/src/abc/parser/def/AcciaccaturaDefinition.java
+END
+PartDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/324/trunk/src/abc/parser/def/PartDefinition.java
+END
+GuitarChordDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/324/trunk/src/abc/parser/def/GuitarChordDefinition.java
+END
+BarlineDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/451/trunk/src/abc/parser/def/BarlineDefinition.java
+END
+FieldTranscriptionNotesDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldTranscriptionNotesDefinition.java
+END
+SpacerDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/419/trunk/src/abc/parser/def/SpacerDefinition.java
+END
+RestDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/419/trunk/src/abc/parser/def/RestDefinition.java
+END
+ClefTextDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/451/trunk/src/abc/parser/def/ClefTextDefinition.java
+END
+KeyHPDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/324/trunk/src/abc/parser/def/KeyHPDefinition.java
+END
+PlusDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/443/trunk/src/abc/parser/def/PlusDefinition.java
+END
+TextDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/413/trunk/src/abc/parser/def/TextDefinition.java
+END
+AccidentalDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/448/trunk/src/abc/parser/def/AccidentalDefinition.java
+END
+TupletSpecDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/324/trunk/src/abc/parser/def/TupletSpecDefinition.java
+END
+NthRepeatDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/451/trunk/src/abc/parser/def/NthRepeatDefinition.java
+END
+EqualsDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/324/trunk/src/abc/parser/def/EqualsDefinition.java
+END
+FieldDefaultLengthDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldDefaultLengthDefinition.java
+END
+FieldComposerDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldComposerDefinition.java
+END
+SymbolEndDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/445/trunk/src/abc/parser/def/SymbolEndDefinition.java
+END
+BaseNoteDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/324/trunk/src/abc/parser/def/BaseNoteDefinition.java
+END
+GracingEndDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/324/trunk/src/abc/parser/def/GracingEndDefinition.java
+END
+AnnotationEndDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/439/trunk/src/abc/parser/def/AnnotationEndDefinition.java
+END
+FieldWordsDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldWordsDefinition.java
+END
+SymbolDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/419/trunk/src/abc/parser/def/SymbolDefinition.java
+END
+FieldHistoryDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldHistoryDefinition.java
+END
+DefinitionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/448/trunk/src/abc/parser/def/DefinitionFactory.java
+END
+IsColonTransition.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/324/trunk/src/abc/parser/def/IsColonTransition.java
+END
+FieldAreaDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldAreaDefinition.java
+END
+BrokenRhythmDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/324/trunk/src/abc/parser/def/BrokenRhythmDefinition.java
+END
+GracingBeginDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/324/trunk/src/abc/parser/def/GracingBeginDefinition.java
+END
+MeterCDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/324/trunk/src/abc/parser/def/MeterCDefinition.java
+END
+AnnotationBeginDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/445/trunk/src/abc/parser/def/AnnotationBeginDefinition.java
+END
+FieldMeterDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/324/trunk/src/abc/parser/def/FieldMeterDefinition.java
+END
