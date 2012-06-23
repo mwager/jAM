@@ -20,7 +20,7 @@ see the javadoc of de.hsa.jam.jAM.java
 
 
 ## Web
-[http://mwager.de/index.php/jam_app](http://mwager.de/jam)
+[http://mwager.de/jam](http://mwager.de/index.php/jam_app)
 
 
 ## COPYRIGHT
