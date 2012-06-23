@@ -1,32 +1,27 @@
-jAM - java automatic music transcription
+#jAM - java automatic music transcription
 
-src
-===
-    contains the java sources
-    package de.hsa.jam is the relevant package.
-    abc/ and scanner/ are from abc4j
-    be/ from tarsos
+## src
+contains the java sources
+package de.hsa.jam is the relevant package.
+abc/ and scanner/ are from abc4j
+be/ from tarsos
 
-doc
-===
-    contains the javadoc html files
+## doc    
+contains the javadoc html files
 
 
-external libs
-=============
-    http://code.google.com/p/abc4j/
-    http://tarsos.0110.be/
---> see the javadoc of de.hsa.jam.jAM.java
+## external libs
+* [http://code.google.com/p/abc4j]
+* [http://tarsos.0110.be]
+see the javadoc of de.hsa.jam.jAM.java
 
 
-Web
-===
-    http://saeft.com/jAM
+## Web
+[http://mwager.de/index.php/jam_app]
 
 
-COPYRIGHT
-=========
-jAM (c) 2011
+## COPYRIGHT
+jAM (c) 2011, 2012
 
 Michael Wager
 
