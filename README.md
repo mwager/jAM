@@ -2,8 +2,11 @@
 
 ## src
 contains the java sources
+
 package de.hsa.jam is the relevant package.
+
 abc/ and scanner/ are from abc4j
+
 be/ from tarsos
 
 ## doc    
@@ -11,13 +14,13 @@ contains the javadoc html files
 
 
 ## external libs
-* [http://code.google.com/p/abc4j]
-* [http://tarsos.0110.be]
+* [http://code.google.com/p/abc4j](http://code.google.com/p/abc4j)
+* [http://tarsos.0110.be](http://tarsos.0110.be)
 see the javadoc of de.hsa.jam.jAM.java
 
 
 ## Web
-[http://mwager.de/index.php/jam_app]
+[http://mwager.de/index.php/jam_app](http://mwager.de/jam)
 
 
 ## COPYRIGHT
