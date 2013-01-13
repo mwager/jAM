@@ -24,7 +24,7 @@ All project-relevant Java sources are located in the package `de.hsa.jam`. (dire
 
 ### Project Dependencies
 
-* `be/` from the [tarsos project](https://github.com/JorenSix/Tarsos) (contains the pitch detection algorithms YIN & MPM)
+* `be/` from the [TarsosDSP project](https://github.com/JorenSix/TarsosDSP) (contains the pitch detection algorithms YIN & MPM)
 * `abc/` and `scanner/` from the [abc4j project](http://code.google.com/p/abc4j) (for generating abcnotation and displaying sheet music)
 
 See `de.hsa.jam.jAM.java`, as some small changes were made to this sources.
