@@ -11,9 +11,7 @@ import de.hsa.jam.ui.MainWindow;
 import de.hsa.jam.ui.MetronomeFrame;
 
 /**
- * Mainclass: Initialize a Model and views and start application.
- *
- *
+ * Mainclass: Initialize the model and the views and start the application.
  *
  * <p>This application depends on the following external libraries:</p>
  * <ul>
@@ -53,37 +51,42 @@ public class jAM {
 	 * */
 	public static final String HOME_PATH = System.getProperty("user.home");
 	
+	/**
+	 * evaluation mode (default false, depends on args)
+	 */
 	public static boolean EVALUATING = false;
 
 	/**
 	 * version of application
 	 */
-	private static final float VERSION = 0.8f;
+	public static final String VERSION = "0.8.1";
 	
 	/**
 	 * title of application
 	 */
 	public static String TITLE = "jAM - java automatic music transcription v" + VERSION;
 
+	/**
+	 * "model" - summarizes all recording and analyzing logic
+	 */
 	private static Model model;
 	
 	public static boolean SYSOUT=false;
 
 	/**
-	 * @param args
-	 *            - if none: start app, else if args[0]=="eval": start evaluation
+	 * @param args If none provided: start application, else if args[0]=="eval": start evaluation (needs mysql database)
 	 * */
 	public static void main(String[] args) {
 		START_TIME = System.currentTimeMillis();
 		configureLogging();
 
 		if (args.length == 0) {
-			model = new Model(); // kann mehrere geben
+			model = new Model(); // there maybe more
 
 			ControllerEngine controller = new ControllerEngine();
 
-			// views kennen controller
-			MainWindow mainView = new MainWindow(TITLE, VERSION, controller);
+			// each view "knows" the controller
+			MainWindow mainView = new MainWindow(controller);
 			ChromaticTunerFrame chromaticTuner = new ChromaticTunerFrame(controller);
 			MetronomeFrame metroFrame = new MetronomeFrame(controller);
 
@@ -95,6 +98,7 @@ public class jAM {
 			controller.initApp();
 			mainView.showIt();
 
+			// start the tuner
 			// controller.startChromaticTuner();
 		}
 

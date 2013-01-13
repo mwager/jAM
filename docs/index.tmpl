@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>jAM readme</title>
+</head>
+<link href="assets/markdown.css" rel="stylesheet"/>
+<style type="text/css">
+    body {overflow-y: scroll; display: none;}
+    h2 {cursor: pointer;}
+    h2:hover {background-color: #F8F8F8;}
+    #logo {float:right;}
+</style>
+<body>
+
+<div id="container">
+    <a href="http://mwager.de/jam" target="_blank">
+        <img src="assets/logo.png" id="logo">
+    </a>
+
+    <!-- placeholder, replaced with generated html from markdown -->
+
+    <footer>
+        <p>
+            Markdown was parsed to html - <a href="../readme.md">RAW readme.md</a>
+        </p>
+    </footer>
+</div>
+
+<script src="assets/jquery.js"></script>
+<script type="text/javascript">
+// fetch README.md, parse and add to dom as html
+// $.get('../readme.md', function (res) { // this needs a webserver, so convert it via cli
+    $(function () {
+        // all elements between two h2 tags
+        var selectors = 'ol, ul, li, p, pre, h3, h4, h5, a, img, code';
+
+        // $('#md').html(markdown.toHTML(res));
+
+        // hide all between the h2 tags
+        $("h2").each(function () {
+            $(this).nextAll().each(function () {
+                if (this.tagName == 'H2') {
+                    return false; // stop execution
+                }
+                $(this).hide();
+            });
+        });
+
+        // make result "collapsible"...
+        $('h2:not(:last)').on('click', function () {
+            var next = $(this).next();
+
+            if (next.is(':visible')) {
+                while (!next.is('h2')) {
+                    next.hide();
+                    next.find(selectors).show();
+                    next = next.next();
+                }
+            }
+            else {
+                while (!next.is('h2')) {
+                    next.fadeIn(300);
+                    next.find(selectors).show();
+                    next = next.next();
+                }
+            }
+        });
+
+        // markdown MUST have a dummy "last" h2 )-:
+        $('h2:last').hide();
+
+        $('body').fadeIn(800);
+    });
+// });
+</script>
+</body>
+</html>

@@ -1,30 +1,42 @@
-#jAM - java automatic music transcription
+# jAM - java automatic music transcription
 
-## src
-contains the java sources
+`jAM` is an automatic music transcription application. (audio2midi, audio2abc)
 
-package de.hsa.jam is the relevant package.
+Generates and displays sheet music from a recorded, monophonic melody.
 
-abc/ and scanner/ are from abc4j
+## Abstract
 
-be/ from tarsos
+This work deals with the problem of automatic transcription of monophonic audio material.
+The proposed pipeline is based on two algorithms to detect the fundamental frequency in 
+a time-discrete signal, YIN and MPM, and a note-based onset collector.
 
-## doc    
-contains the javadoc html files
+This project contains the sources  of the developed prototype, the system was evaluated 
+and the results are good. An average score of 79.58% recognition rate was achieved.
 
+Developed in 2011 as part of my [thesis](http://mwager.de/assets/Bachelorarbeit.pdf) at [University of Applied Sciences, Augsburg, Germany](http://hs-augsburg.de)
 
-## external libs
-* [http://code.google.com/p/abc4j](http://code.google.com/p/abc4j)
-* [http://tarsos.0110.be](http://tarsos.0110.be)
-see the javadoc of de.hsa.jam.jAM.java
-
-
-## Web
 [http://mwager.de/jam](http://mwager.de/jam)
 
 
+## Sourcecode
+
+All project-relevant Java sources are located in the package `de.hsa.jam`. (directory `/src/de/hsa/jam`)
+
+### Project Dependencies
+
+* `be/` from the [tarsos project](https://github.com/JorenSix/Tarsos) (contains the pitch detection algorithms YIN & MPM)
+* `abc/` and `scanner/` from the [abc4j project](http://code.google.com/p/abc4j) (for generating abcnotation and displaying sheet music)
+
+See `de.hsa.jam.jAM.java`, as some small changes were made to this sources.
+
+### docs
+
+The javadoc html files.
+
+
 ## COPYRIGHT
-jAM (c) 2011, 2012
+
+jAM (c) 2011 - 2013
 
 Michael Wager
 
@@ -44,3 +56,5 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston,
 MA 02111-1307 USA.
+
+## -----

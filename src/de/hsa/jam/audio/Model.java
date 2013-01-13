@@ -48,8 +48,7 @@ import de.hsa.jam.evaluation.Evaluator;
 import de.hsa.jam.util.jAMUtils;
 
 /**
- * This class represents the global Model (MVC) for jAM.
- * 
+ * This class represents the global Model (MVC) of the jAM application.
  * 
  * <p>Duties of this class:</p>
  * <ul>

@@ -20,8 +20,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
-import java.awt.event.WindowEvent;
-import java.awt.event.WindowListener;
 import java.beans.PropertyChangeEvent;
 import java.io.File;
 import java.util.logging.Logger;
@@ -30,7 +28,6 @@ import javax.sound.sampled.Mixer;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
-import javax.swing.JEditorPane;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JMenu;
@@ -43,12 +40,14 @@ import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
 import javax.swing.JTextField;
 import javax.swing.WindowConstants;
+
 import abc.notation.MusicElement;
 import abc.notation.Tune;
 import abc.parser.TuneParser;
 import abc.ui.swing.TuneEditorPane;
 import be.hogent.tarsos.sampled.SampledAudioUtilities;
 import de.hsa.jam.ControllerEngine;
+import de.hsa.jam.jAM;
 
 /*	All user events	
  * 		menu:
@@ -89,8 +88,7 @@ import de.hsa.jam.ControllerEngine;
 
 /**
  * This class implements the MainFrame of the application.<br />
- * There is a menu, a userpanel with rec/play, the scorepanel and a prefenence
- *  frame
+ * There is a menu, a userpanel with rec/play, and the scorepanel.
  * 
  * @author Michael Wager
  */
@@ -118,12 +116,11 @@ public class MainWindow extends AbstractView {
 
 	private JFrame jframe;
 	
-	public MainWindow(String title, final float VERSION,
-			final ControllerEngine c) {
+	public MainWindow(final ControllerEngine c) {
 		this.controller = c;
 
 		jframe = new JFrame();
-		jframe.setTitle(title);
+		jframe.setTitle(jAM.TITLE);
 		jframe.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		jframe.setLayout(new BorderLayout());
 
@@ -284,8 +281,8 @@ public class MainWindow extends AbstractView {
 		JMenuItem about = new JMenuItem("About");
 		about.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(jframe,"jAM - java automatic music transcription v" + VERSION
-										+ "\n\ncontact:\nbreddafredda@web.de\n\nWeb:\nhttp://saeft.com/jAM");
+				JOptionPane.showMessageDialog(jframe,"jAM - java automatic music transcription v" + jAM.VERSION
+										+ "\n\ncontact:\nbreddafredda@web.de\n\nweb:\nhttp://mwager.de/jam");
 
 				// JFrame a = new JFrame("About jAM");
 				// a.add(new JLabel("JAM VERSION ??? usw..."));
